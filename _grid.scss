@@ -1,0 +1,55 @@
+.grid{
+    display:grid;
+    height: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:10px;
+    .wrapper{
+      font-family: sans-serif;
+       position: relative;
+       display: flex;
+       justify-content: center;
+       button:hover{
+
+        opacity:1;
+
+        button:hover{
+          opacity:1;
+
+          .overlay{
+            opacity: 0;
+            .wrapper:hover img{
+              opacity: 0; 
+              .wrapper:hover button{
+                opacity: 1;
+                .wrapper:hover .test{
+                  background-color:black;
+                  .wrapper:hover .overlay{
+    
+                    opacity: 1;
+                    .test{
+                      position: absolute;
+                      width: 200px;
+                      height: 200px;
+                    }
+                       
+                   }
+                }
+              }   
+          }
+        
+        }
+        }
+        
+      }
+       
+    }
+  }
+  
+  
+  
+ 
+  
+  
